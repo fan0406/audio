@@ -1,0 +1,90 @@
+body {
+  background: #ff564c;
+  padding: 0;
+  margin: 0;
+}
+
+.controls {
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 3%;
+    background: black;
+}
+
+.menu {
+    position: absolute;
+    bottom: 0;
+    height: 250px;
+    width: 400px;
+    background: #b97373;
+    box-shadow: inset 0 0 8px 0px black;
+}
+
+.button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top:5px;
+}
+
+
+#id-audio-currentTime {
+    position: absolute;
+    right: 85%;
+    top:5px;
+    font-size: 18px;
+}
+#id-audio-totalTime {
+    position: absolute;
+    left: 85%;
+    top:5px;
+    font-size: 18px;
+}
+
+.musicList{
+    position: absolute;
+    bottom: 32%;
+    color: #cad6cd;
+}
+
+.music {
+    width: 330px;
+    border-bottom-style: groove;
+    border-bottom-width: 1px;
+}
+
+button {
+    width: 36px;
+    font-size: 18px;
+    border: 0px;
+    border-radius: 50%;
+    background: #332226;
+    color: #afa6a6;
+}
+
+.shadow {
+    position: absolute;
+    width: 400px;
+    height: 35px;
+    bottom: -5px;
+    left: 0;
+    box-shadow: 0px -15px 40px rgba(17, 17, 17, 0.8);
+    background: rgba(17, 17, 17, 0.8);
+}
+
+.coverImage {
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    top: 0;
+    left: 0;
+    transform-origin: 0% 0%;
+    transition: all 0.3s ease-in;
+    background: url(https://angstyteenwatchingtoomuchtv.files.wordpress.com/2015/07/tumblr_nlhsir3adc1sk2qobo1_12801.gif) no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
